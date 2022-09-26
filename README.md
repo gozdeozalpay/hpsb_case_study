@@ -5,30 +5,32 @@
 
 1. Download the files into a location on your computer.
 
-2. Open your terminal
+2. Get the event.json and meta.json files in the same directory. 
 
-3. Find the documents in your local computer with cd. Example; 
+3. Open your terminal
+
+4. Find the documents in your local computer with cd. Example; 
 ```zsh
 cd Desktop/data
 ```
-4. Activate your python environment. Example;
+5. Activate your python environment. Example;
 ```zsh
 conda activate
 ```
-5. Install dependencies
+6. Install dependencies
 ```zsh
 pip install -r requirements.txt
 ```
-6. Write the code below to run api process.
+7. Write the code below to run api process.
 ```zsh
 uvicorn recommender:recommender --reload
 ```
-7. Open local API docs [http://127.0.0.1:8000/docs](http://localhost:8000/docs)
+8. Open local API docs [http://127.0.0.1:8000/docs](http://localhost:8000/docs)
 
-8. When you reach the fast-api framework click "Post"
+9. When you reach the fast-api framework click "Post"
 
-9. Click "Try it Out"
+10. Click "Try it Out"
 
-10. Write any product you want to get recommendation and hit execute. 
+11. Write any product you want to get recommendation and hit execute. 
 
-11. Wait for the finish and you can see the final results in response body. 
+12. Wait for the finish and you can see the final results in response body. 
