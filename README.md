@@ -24,3 +24,11 @@ pip install -r requirements.txt
 uvicorn recommender:recommender --reload
 ```
 7. Open local API docs [http://127.0.0.1:8000/docs](http://localhost:8000/docs)
+
+8. When you reach the fast-api framework click "Post"
+
+9. Click "Try it Out"
+
+10. Write any product you want to get recommendation. 
+
+11. Wait for the finish and you can see the final results in response body. 
