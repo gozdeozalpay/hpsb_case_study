@@ -29,6 +29,6 @@ uvicorn recommender:recommender --reload
 
 9. Click "Try it Out"
 
-10. Write any product you want to get recommendation. 
+10. Write any product you want to get recommendation and hit execute. 
 
 11. Wait for the finish and you can see the final results in response body. 
